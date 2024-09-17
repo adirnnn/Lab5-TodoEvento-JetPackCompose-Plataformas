@@ -48,9 +48,10 @@ data class Location(
 )
 
 val locations = listOf(
-    Location("Guns And Roses LA", "LA Hall"),
-    Location("Guns And Roses Denver", "Denver Hall"),
-    Location("Guns and Roses New York", "Madison Square Garden")
+    Location("France", "Lyons"),
+    Location("USA", "NY"),
+    Location("USA", "LA, Cali"),
+    Location("Spain", "Barcelona")
 )
 
 @Composable
